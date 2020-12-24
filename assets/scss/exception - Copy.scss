@@ -1,0 +1,207 @@
+/* css for summarySection */
+.summarySection {
+    background-color: #fafbfb;
+
+    .summaryWrp {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
+        align-items: center;
+
+        .detailsImg {
+            border: 1px solid #dddddd;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 420px;
+            height: 450px;
+            border-radius: 4px;
+        }
+
+        .summaryWrp-info {
+            h2 {
+                font-size: 30px;
+                text-align: left;
+                color: #25272c;
+                font-family: "Circular Std";
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+
+            span {
+                font-family: "Circular Std";
+                font-weight: 700;
+                font-size: 32px;
+                color: #44ac7a;
+                margin-bottom: 20px;
+                display: block;
+            }
+
+            p {
+                font-family: "Lato", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #2f3032;
+                margin-bottom: 30px;
+            }
+
+            .addToCart {
+                .btn-fill {
+                    height: 50px;
+                    display: block;
+                    max-width: 300px;
+                    width: 100%;
+                }
+            }
+
+            .summaryInpfield {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 30px;
+
+
+                .flieldWrp {
+                    font-family: CircularStd-Book;
+                    font-weight: normal;
+                    font-size: 14px;
+                    color: #5d6c72;
+                    width: 48%;
+
+                    label {
+                        font-family: "Lato", sans-serif;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #2f3032;
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+
+                    .selectField {
+                        font-family: CircularStd-Book;
+                        font-weight: normal;
+                        font-size: 16px;
+                        text-align: left;
+                        color: #25272c;
+                        min-height: 52px;
+                        border-radius: 6px;
+                        background: #fff;
+                        border: 1px solid #ebeced;
+                        width: 100%;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        color: #596172;
+                        border-color: #ebebeb;
+                        padding: 0 0 0 25px;
+                        background-image: url("../img/caret-down.png");
+                        background-repeat: no-repeat;
+                        background-position: 95% center;
+                        background-color: #fff;
+                    }
+
+
+                    .main {
+                        margin-left: 5px;
+                        border: 1px solid #ebeced;
+                        padding: 8px 10px;
+                        margin-right: 30px;
+                        background-color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        min-height: 52px;
+                        line-height: 52px;
+                        border-radius: 6px;
+                    }
+
+                    .counter {
+                        width: 45px;
+                        border-radius: 0px !important;
+                        text-align: center;
+                        background: #fff;
+                        margin: 0 5px;
+                        -webkit-appearance: none;
+                    }
+
+                    .up_count {
+                        margin-left: -4px;
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                    }
+
+                    .down_count {
+                        margin-right: -4px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                    }
+
+                    .btn-info,
+                    .counter {
+                        background-color: transparent;
+                        border: none;
+                        padding: 0;
+                        margin: 0;
+                        cursor: pointer;
+                        font-size: 17px;
+                        font-weight: 600;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    input::-webkit-outer-spin-button,
+                    input::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+
+                    input[type="number"] {
+                        -moz-appearance: textfield;
+                    }
+
+                    .btn-quantity {
+                        width: 30px;
+                        height: 30px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        outline: none;
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* css for summarySection -END*/
+
+
+
+
+/* css for discountWrp */
+.discountWrp {
+    padding: 70px 0;
+
+    .discountWrp-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
+        align-items: center;
+
+        p {
+            font-family: "Circular Std";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #25272b;
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* css for discountWrp -END*/
